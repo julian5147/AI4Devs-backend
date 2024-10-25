@@ -5,6 +5,8 @@
   "prisma": {
     "schema": "backend/prisma/schema.prisma"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "node preinstall.js"
   }
 }
